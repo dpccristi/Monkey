@@ -1,0 +1,438 @@
+.firstSection {
+    background-color: black;
+    height: 29px;
+
+}
+
+.firstSection ul li {
+    display: inline;
+    color: white;
+}
+
+.firstSection img {
+    width: 25px;
+}
+
+.firstSection p {
+    color: white;
+}
+
+.firstSection .col:nth-child(2) {
+    display: block;
+
+}
+
+.firstSection .col:nth-child(2) img, .firstSection .col:nth-child(2) p {
+    float: right;
+}
+
+.firstSection .col:nth-child(3) li {
+    display: inline;
+
+}
+
+.secondSection {
+    margin-top: 25px;
+}
+
+.secondSection ul li {
+    display: inline;
+    /* font-size: xx-large;*/
+}
+
+.secondSection .row .col:nth-child(1) h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.secondSection .row .col:nth-child(2) .row {
+    padding-left: 20px;
+}
+
+.hov:hover {
+    background-color: #e5e4e2 !important;
+}
+
+.secondSection .row .col:nth-child(2) .row .col:nth-child(1) button {
+    background-color: white;
+    border: 2px solid #e5e4e2;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: none;
+    padding: 7px 20px;
+}
+
+/*.secondSection .row .col:nth-child(2) .row .col:nth-child(1) button:hover {
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+
+}*/
+
+.secondSection .row .col:nth-child(2) .row .col:nth-child(2) button {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: none;
+    padding: 7px 20px;
+    margin-left: -5px;
+}
+
+.secondSection .row .col:nth-child(2) .row .col:nth-child(3) button {
+    background-color: white;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+
+.secondSection .row .col:nth-child(2) .row .col:nth-child(4) button {
+    background-color: black;
+    text-transform: uppercase;
+    color: #e5e4e2;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+
+input[type=text] {
+    width: 93%;
+    border: none;
+    vertical-align: middle;
+
+}
+
+.wrapper {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border: 1px solid #e5e4e2;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="image"] {
+    vertical-align: middle;
+    position: relative;
+}
+
+.paint {
+    background-color: #e5e4e2;
+    text-transform: uppercase;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 23px;
+
+}
+
+.paint li {
+    padding: 20px;
+}
+
+.middleSection .row .col:nth-child(1) .card .card-img {
+    width: 550px;
+}
+
+.middleSection .row .col:nth-child(1) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(1) .card .card-img-overlay {
+
+    margin-top: 200px;
+}
+
+.middleSection .row .col:nth-child(1) .card .card-img-overlay h5 {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(1) .card .card-img-overlay p {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(1) .card .card-img-overlay button {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    margin-left: 205px;
+}
+
+/*
+.middleSection .row .col:nth-child(2) .card .card-img {
+    width: 550px;
+}*/
+.middleSection .row .col:nth-child(2) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(2) .card .card-img-overlay {
+    margin-top: 205px;
+}
+
+.middleSection .row .col:nth-child(2) .card .card-img-overlay h5 {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(2) .card .card-img-overlay p {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(2) .card .card-img-overlay button {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    margin-left: 205px;
+}
+
+.middleSection .row .col:nth-child(4) .card .card-img {
+    width: 700px;
+}
+
+.middleSection .row .col:nth-child(4) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(4) .card .card-img-overlay {
+    margin-top: 370px;
+}
+
+.middleSection .row .col:nth-child(4) .card .card-img-overlay h5 {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(4) .card .card-img-overlay p {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(4) .card .card-img-overlay button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 290px;
+    outline: none;
+}
+
+.middleSection .row .col:nth-child(5) .card .card-img {
+    height: 520px;
+}
+
+.middleSection .row .col:nth-child(5) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(5) .card .card-img-overlay h5 {
+    position: absolute !important;
+    bottom: 20px;
+    left: 40px;
+
+}
+
+.h:hover {
+    opacity: 0.7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.middleSection .row .col:nth-child(7) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(7) .card .card-img-overlay h5 {
+    position: absolute !important;
+    bottom: 20px;
+    left: 40px;
+
+}
+
+.middleSection .row .col:nth-child(8) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(8) .card .card-img-overlay h5 {
+
+    padding-top: 100px;
+    padding-left: 90px;
+
+}
+
+.middleSection .row .col:nth-child(8) .card .card-img-overlay button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 100px;
+    outline: none;
+}
+
+.middleSection .row .col:nth-child(8) .card .card-img {
+    height: 197px;
+}
+
+.middleSection .row .col:nth-child(9) {
+    padding: 13px !important;
+}
+
+.middleSection .row .col:nth-child(9) .card .card-img-overlay h5 {
+    position: absolute !important;
+    bottom: 20px;
+    left: 40px;
+
+}
+
+.middleSection .row .col:nth-child(9) .card .card-img {
+    height: 197px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.lastSection h2 {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.lastSection .row .card-img-top {
+    height: 250px;
+}
+
+.lastSection .row .card {
+    text-align: center;
+}
+
+.war {
+    margin-top: 30px;
+    display: inherit !important;
+    margin-bottom: 10px;
+}
+
+.war ul {
+    display: inherit;
+    list-style-type: none;
+    padding-left: 10px;
+    margin-top: -4px;
+    margin-bottom: 13px !important;
+}
+
+.war h5 {
+    margin-top: 5px;
+}
+
+.format {
+    width: 40px;
+}
+
+input[type="search"] {
+    width: 80%;
+    padding-left: 13px;
+    margin-top: 3px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    border: 2px solid #e5e4e2;
+}
+
+.box .container {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.decorate {
+    margin-top: 100px;
+    border-top: 2px solid #e5e4e2;
+    border-bottom: 2px solid #e5e4e2;
+    padding-bottom: 4px;
+    margin-bottom: 40px;
+}
+
+.box input[type="submit"] {
+    margin-top: 2.5px;
+    float: right;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0 !important;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.footer .row ul {
+    list-style-type: none;
+    padding: 0;
+}
+.resize {
+    width: 100px;
+}
+
+.col-md-5 .row .col:nth-child(2) h5 {
+    border:2px solid #e5e4e2;
+    padding-left: 22px;
+    padding-right: 20px;
+  padding-top: 2px;
+    padding-bottom:2px;
+    margin-top: -3px;
+    width: 90px;
+    font-size:18px;
+    float: right;
+}
+.col-md-5 .row .col-md-5 h5 {
+    border:2px solid #e5e4e2;
+    padding-left: 13px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    margin-top: -3px;
+    width: 90px;
+    font-size:18px;
+    float: left;
+}
+.col-md-5 .row .col-md-5 {
+    padding-left: 0 !important;
+}
+
+.order ul li{
+    display: inline;
+}
+.order ul li:nth-child(1){
+    font-size: 20px;
+}
+
+#signature li {
+    display: inline !important;
+    margin-right: 10px;
+}
+
+
+#signature {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    -webkit-padding-start: 0px !important;
+}
+
+.bluray:hover {
+
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5e5e5e;
+}
+.foo img {
+    width: 20px;
+    margin-right: 10px;
+}
+.foo li {
+
+    margin-bottom: 10px;
+}
