@@ -33,7 +33,7 @@
             <div class="col ">
                 <ul class="paint">
                     <li >Home</li>
-                    <li class="h">New Arrivals</li>
+                    <li>New Arrivals</li>
                     <li>Tuxedo</li>
                     <li >Sweater</li>
                     <li >Shoes</li>

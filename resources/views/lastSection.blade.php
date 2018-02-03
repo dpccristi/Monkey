@@ -1,8 +1,7 @@
 <section class="lastSection">
     <div class="container">
-        <hr/>
-        <h2>Special Offers</h2>
-
+        <hr>
+        <p id="parag">Special Offers</p>
         <div class="row">
             <div class="col">
                 <div class="card h">
