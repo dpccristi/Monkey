@@ -66,7 +66,7 @@ input, textarea, button {
     background-color: darkcyan !important;
 
 }
-#exampleInputPassword {
+#exampleInputPasswordRegister {
     margin-bottom: 0 !important;
 }
 
@@ -123,12 +123,16 @@ background: lightblue;
     padding: 7px 20px;
     margin-left: -5px;
 }
+#suma {
+    display: inline;
+}
 
 .secondSection .row .col:nth-child(2) .row .col:nth-child(3) button {
     background-color: white;
     box-shadow: none;
     font-size: 14px;
-    padding: 7px 20px;
+    
+    padding: 5px 10px;
 }
 
 .secondSection .row .col:nth-child(2) .row .col:nth-child(4) button {
@@ -274,6 +278,9 @@ input[type="image"] {
     outline: none;
 }
 
+.middleSection .row .col:nth-child(5) .card .card-img-overlay {
+    margin-top: 370px;
+}
 .middleSection .row .col:nth-child(5) .card .card-img {
     height: 520px;
 }
@@ -283,11 +290,24 @@ input[type="image"] {
 }
 
 .middleSection .row .col:nth-child(5) .card .card-img-overlay h5 {
-    position: absolute !important;
-    bottom: 20px;
-    left: 40px;
+    text-align: center;
+
 
 }
+
+.middleSection .row .col:nth-child(5) .card .card-img-overlay p {
+    text-align: center;
+}
+
+.middleSection .row .col:nth-child(5) .card .card-img-overlay button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left:  120px;
+    outline: none;
+}
+
 
 .h:hover {
     opacity: 0.7;
@@ -295,16 +315,25 @@ input[type="image"] {
     cursor: pointer;
     transition: 0.3s;
 }
-
+.middleSection .row .col:nth-child(7) .card .card-img-overlay {
+    margin-top: 100px;
+}
 .middleSection .row .col:nth-child(7) {
     padding: 13px !important;
 }
 
 .middleSection .row .col:nth-child(7) .card .card-img-overlay h5 {
-    position: absolute !important;
-    bottom: 20px;
-    left: 40px;
+    text-align: left;
 
+}
+
+.middleSection .row .col:nth-child(7) .card .card-img-overlay button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left:  5px;
+    outline: none;
 }
 
 .middleSection .row .col:nth-child(8) {
@@ -312,7 +341,6 @@ input[type="image"] {
 }
 
 .middleSection .row .col:nth-child(8) .card .card-img-overlay h5 {
-
     padding-top: 100px;
     padding-left: 90px;
 
@@ -331,13 +359,15 @@ input[type="image"] {
 .middleSection .row .col:nth-child(8) .card .card-img {
     height: 197px;
 }
-
+.middleSection .row .col:nth-child(9) .card .card-img-overlay {
+    margin-top: 100px;
+}
 .middleSection .row .col:nth-child(9) {
     padding: 13px !important;
 }
 
 .middleSection .row .col:nth-child(9) .card .card-img-overlay h5 {
-    position: absolute !important;
+  text-align: right;
     bottom: 20px;
     left: 40px;
 
@@ -346,7 +376,15 @@ input[type="image"] {
 .middleSection .row .col:nth-child(9) .card .card-img {
     height: 197px;
 }
+.middleSection .row .col:nth-child(9) .card .card-img-overlay button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 200px;
+    outline: none;
 
+}
 hr {
     display: block;
     height: 1px;
@@ -517,3 +555,29 @@ input[type="search"] {
 
     margin-bottom: 10px;
 }
+
+.modal-header {
+    color:black;
+}
+.modal-body {
+    color:black
+}
+.editfooter button {
+background-color: #2ab27b !important;
+    color: #000;
+    border: none;
+
+}
+
+#bodyId img {
+    width: 460px;
+}
+
+.card-img.active {
+    display: block;
+
+}
+.card-release.active {
+    display: block;
+}
+

@@ -10,74 +10,15 @@
                 <div class="row">
                     <div class="col">
                         <button type="submit" class="btn hov" data-toggle="modal" data-target="#myModal">login</button>
-                        <!-- Modal -->
-                        <div id="myModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
 
-                                <!-- Modal content-->
-                                <div class="modal-content">
-
-                                        <div class="modal-header">
-                                            <h3 class="modal-title">Login to your account</h3>
-
-                                    </div>
-                                    <div class="modal-body">
-                                        <form role="form">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail">Email</label>
-                                                <input type="email" id="exampleInputEmail" class="form-control" placeholder="Email"/>
-                                                <label for="exampleInputPassword">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" />
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-default btn-block design">Log In</button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
                     </div>
                     <div class="col">
 
                         <button type="submit" class="btn hov" data-toggle="modal" data-target="#myModal2">register</button>
-                        <!-- Modal -->
-                        <div id="myModal2" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
 
-                                <!-- Modal content-->
-                                <div class="modal-content">
-
-                                    <div class="modal-header">
-                                        <h3 class="modal-title">Register your account</h3>
-
-                                    </div>
-                                    <div class="modal-body">
-                                        <form role="form">
-                                            <div class="form-group">
-                                                <label for="exampleInputUsername">Username</label>
-                                                <input type="text" id="exampleInputUsername" class="form-control" placeholder="Username"/>
-                                                <label for="exampleInputEmail">Email</label>
-                                                <input type="email" id="exampleInputEmail" class="form-control" placeholder="Email"/>
-                                                <label for="exampleInputPassword">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" />
-                                                <label for="exampleInputPasswordRe">Re-enter Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPasswordRe" placeholder="Re-enter Password" />
-
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-default btn-block design">Register</button>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn hov">My Cart (0) : $0</button>
+                        <button type="submit" class="btn hov">My Cart (0) : $ <span id="suma">0</span></button>
                     </div>
                     <div class="col">
                         <button type="submit" class="btn ">checkout</button>
@@ -108,5 +49,66 @@
 
         </div>
 
+    </div>
+    <!-- Modal -->
+    <div id="myModal2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h3 class="modal-title">Register your account</h3>
+
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="exampleInputUsernameRegister">Username</label>
+                            <input type="text" id="exampleInputUsernameRegister" class="form-control" placeholder="Username"/>
+                            <label for="exampleInputEmailRegister">Email</label>
+                            <input type="email" id="exampleInputEmailRegister" class="form-control" placeholder="Email"/>
+                            <label for="exampleInputPasswordRegister">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPasswordRegister" placeholder="Password" />
+                            <label for="exampleInputPasswordRe">Re-enter Password</label>
+                            <input type="password" class="form-control" id="exampleInputPasswordRe" placeholder="Re-enter Password" />
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default btn-block design">Register</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h3 class="modal-title">Login to your account</h3>
+
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="exampleInputEmailLogin">Email</label>
+                            <input type="email" id="exampleInputEmailLogin" class="form-control" placeholder="Email"/>
+                            <label for="exampleInputPasswordLogin">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPasswordLogin" placeholder="Password" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default btn-block design">Log In</button>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
